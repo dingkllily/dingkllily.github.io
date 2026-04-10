@@ -41,3 +41,215 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+body {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.masthead__menu-item,
+.greedy-nav a,
+.author__name {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.author__bio,
+.page__content,
+.archive__item-excerpt,
+.page__meta,
+.archive__item p {
+  font-weight: 400;
+}
+
+.page__content {
+  max-width: 46rem;
+}
+
+.page__content h1,
+.page__content h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+}
+
+.page__content h1 + ul,
+.page__content h2 + ul,
+.page__content h1 + .publication__item,
+.page__content h2 + .publication__item {
+  margin-top: 0.7rem;
+}
+
+.page__content > h1:first-of-type {
+  margin-top: 0;
+}
+
+.page__content h1 {
+  font-size: 1.55rem;
+}
+
+.page__content h2 {
+  font-size: 1.08rem;
+}
+
+.publication-entry {
+  display: grid;
+  grid-template-columns: minmax(120px, 20%) minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  margin-bottom: 1.9rem;
+}
+
+.publication-entry--compact {
+  display: block;
+  margin-bottom: 1.15rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.publication-entry--compact::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.08rem;
+  color: #555;
+}
+
+.publication-entry--compact .publication-entry__content .archive__item-title {
+  font-size: 0.92rem;
+  line-height: 1.24;
+  margin-bottom: 0.12rem;
+}
+
+.publication-entry--compact .publication-entry__authors,
+.publication-entry--compact .publication-entry__venue {
+  margin-top: 0.08rem;
+  margin-bottom: 0.12rem;
+}
+
+.publication-entry__media img,
+.publication-entry__placeholder {
+  width: 100%;
+  display: block;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  background: #f3f3f3;
+}
+
+.publication-entry__placeholder {
+  aspect-ratio: 1.3 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+.publication-entry__content .archive__item-title {
+  margin-top: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.publication-entry__link {
+  margin-left: 0.35rem;
+  font-size: 0.82em;
+  color: #6b7280;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.publication-entry__link:hover,
+.publication-entry__link:focus {
+  color: #1f2937;
+}
+
+.publication-entry__authors,
+.publication-entry__venue,
+.publication-entry__excerpt {
+  margin-top: 0.3rem;
+  margin-bottom: 0.55rem;
+}
+
+.publication-entry__authors {
+  color: #3f3f3f;
+}
+
+.publication-entry__venue {
+  color: #555;
+}
+
+.publication-entry__year {
+  margin-left: 0.4rem;
+}
+
+.wordwrap {
+  margin-bottom: 1.4rem;
+}
+
+.about-selected-publications .publication-entry {
+  gap: 0.9rem;
+  margin-bottom: 1.15rem;
+}
+
+.about-selected-publications .publication-entry__content .archive__item-title {
+  font-size: 0.98rem;
+  line-height: 1.25;
+  margin-bottom: 0.14rem;
+}
+
+.about-selected-publications .publication-entry__authors,
+.about-selected-publications .publication-entry__venue {
+  margin-top: 0.08rem;
+  margin-bottom: 0.18rem;
+}
+
+.about-education {
+  margin-top: 0.6rem;
+}
+
+.education-list,
+.education-degrees {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education-entry {
+  margin-bottom: 1.05rem;
+}
+
+.education-school {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.18rem;
+}
+
+.education-degree {
+  margin-left: 1rem;
+  margin-bottom: 0.08rem;
+}
+
+.education-degrees > li + li {
+  margin-top: 0.22rem;
+}
+
+.education-meta {
+  color: #555;
+  font-size: 0.95rem;
+  margin-left: 1rem;
+  margin-bottom: 0.18rem;
+}
+
+@media (max-width: 767px) {
+  .publication-entry {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <rect width="320" height="240" fill="#f5f4f0"/>
+  <rect x="22" y="22" width="276" height="196" rx="8" fill="#ffffff" stroke="#d7d2c7"/>
+  <polygon points="72,156 104,78 136,154" fill="#7ba6b1"/>
+  <polygon points="126,160 162,62 198,160" fill="#b6b56d"/>
+  <polygon points="184,154 214,90 248,152" fill="#c98758"/>
+  <text x="24" y="214" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4a4a4a">Ballast Angularity Index</text>
+</svg>

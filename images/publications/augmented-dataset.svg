@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <rect width="320" height="240" fill="#f3f2ec"/>
+  <rect x="22" y="22" width="276" height="196" rx="8" fill="#ffffff" stroke="#d7d2c7"/>
+  <rect x="44" y="54" width="62" height="62" fill="#93afc1"/>
+  <rect x="118" y="54" width="62" height="62" fill="#c5b17d"/>
+  <rect x="192" y="54" width="62" height="62" fill="#89b38e"/>
+  <rect x="81" y="128" width="62" height="62" fill="#b49ab3"/>
+  <rect x="155" y="128" width="62" height="62" fill="#d3b18f"/>
+  <text x="24" y="214" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4a4a4a">Augmented Dataset</text>
+</svg>

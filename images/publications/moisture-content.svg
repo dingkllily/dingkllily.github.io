@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <rect width="320" height="240" fill="#f5f3ee"/>
+  <rect x="24" y="24" width="272" height="192" rx="8" fill="#ffffff" stroke="#d7d2c7"/>
+  <circle cx="90" cy="120" r="34" fill="#8fb7cf"/>
+  <circle cx="140" cy="102" r="24" fill="#b9c48d"/>
+  <circle cx="176" cy="138" r="28" fill="#d8b97d"/>
+  <rect x="214" y="70" width="34" height="92" rx="5" fill="#4f6d7a"/>
+  <text x="24" y="214" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4a4a4a">Moisture Content Prediction</text>
+</svg>
